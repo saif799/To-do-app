@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+:root {
+  --primary: #f8f4f0;
+  --secondary: #1a1a1a;
+  --shopPrimary: #231f20;
+  --shopSecondary: #f8f5f2;
+  --productImage: #f2eeeb;
+}
+
+* {
+  margin: 0;
+  box-sizing: 0;
+}
+
+.appContainer {
+  height: 100vh;
+  background-color: var(--primary);
+  font-family: "Montserrat", sans-serif;
+  padding: 4rem 0rem 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: rem;
+  margin-bottom: 3rem;
+  margin-inline: 10rem;
+}
+
+main {
+  height: 540px;
+  /* background: #000; */
+  display: flex;
+  margin-inline: 5rem;
+}
+.left-container {
+  /* background: yellow; */
+  flex-basis: 16%;
+  /* text-align: center; */
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right-container {
+  flex-basis: 84%;
+  padding-left: 7rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 5rem;
+}
+.toDO {
+  font-weight: 900;
+}
+
+.pContainer {
+  padding: 5px;
+}
+.Playout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block {
+  height: 50px;
+  width: 240px;
+  padding: 10px;
+  background-color: var(--productImage);
+  border: dotted 1px var(--shopPrimary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.style-btn:last-child {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: space-between;
+}
